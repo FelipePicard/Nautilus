@@ -1,0 +1,25 @@
+  planets:
+    [{name: Mercury, 
+      orbitRadius: 1},
+
+    {name: Venus, 
+      orbitRadius: 2},
+
+    {name: Earth, 
+      orbitRadius: 4},
+
+    {name: Mars, 
+      orbitRadius: 5},
+
+    {name: Jupiter, 
+      orbitRadius: 7},
+
+    {name: Saturn, 
+      orbitRadius: 8},
+
+    {name: Uranus, 
+      orbitRadius: 8.7},
+      
+    {name: Neptune, 
+      orbitRadius: 9.2}
+    ]
