@@ -13,7 +13,7 @@ class Contestant(): #creates a class and defines the attributes of each object t
         r = "\n The contestant {}, from {}, is {} years old, and currently has {} points! He is riding a {}ft board. {} has won {} championships this far!\n" .format(self.name, self.nationality, self.age, self.points,  self.boardsize, self.name, self.cwon)
         return r
 
-    #makes arithmetic comparations between the objects
+    #makes arithmetic comparisons between the objects
     def __add__(self, contestant2):
         s = self.points + contestant2.points
         return s
